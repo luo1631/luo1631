@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35261362/README.md)
 # Hi，我是 luo1631👋
 
 喜欢写软件、研究 AI，也爱琢磨界面怎么设计。
