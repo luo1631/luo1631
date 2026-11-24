@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f8f5">
+  <title>3×3 魔方 · luo1631</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./cube.js" defer></script>
+</head>
+<body>
+  <main class="scene">
+    <canvas id="cube" tabindex="0" role="application"
+      aria-label="可转动的三阶魔方" aria-describedby="cube-help">
+      请使用支持 Canvas 的浏览器打开魔方。
+    </canvas>
+    <p id="cube-help" class="visually-hidden">
+      拖色块转层，拖空白处换视角。聚焦魔方后，可用方向键换视角，
+      用 R、L、U、D、F、B 转动对应面，按住 Shift 反转。
+    </p>
+  </main>
+</body>
+</html>
